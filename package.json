@@ -1,22 +1,40 @@
 {
-  "name": "react-native-date-picker",
-  "version": "2.5.1",
-  "description": "A Cross Platform React Native Picker",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "mv README.md githubREADME.md && mv npmREADME.md README.md",
-    "postpublish": "mv README.md npmREADME.md && mv githubREADME.md README.md"
+  "_from": "react-native-date-picker@^2.5.0",
+  "_id": "react-native-date-picker@2.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-l7nzA6J2q45mmBZE2CgsO+YGm8ZaFiAuXdXIxFx/M0J9wWH2Th0RMnBssDx4nbHrk020bl5lzeCZKQHtiS58wA==",
+  "_location": "/react-native-date-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-date-picker@^2.5.0",
+    "name": "react-native-date-picker",
+    "escapedName": "react-native-date-picker",
+    "rawSpec": "^2.5.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.5.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:henninghall/react-native-date-picker.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-date-picker/-/react-native-date-picker-2.5.0.tgz",
+  "_shasum": "6dc89e9c7fdf61de708fc444594dcc16a20a7070",
+  "_spec": "react-native-date-picker@^2.5.0",
+  "_where": "/Users/admin/Desktop/gigs_app",
+  "author": {
+    "name": "henninghall"
   },
+  "bugs": {
+    "url": "https://github.com/henninghall/react-native-date-picker/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "moment": "^2.22.1"
   },
-  "author": "henninghall",
-  "license": "MIT",
+  "deprecated": false,
+  "description": "A Cross Platform React Native Picker",
   "homepage": "https://github.com/henninghall/react-native-date-picker",
   "keywords": [
     "datepicker",
@@ -26,5 +44,18 @@
     "react native date picker",
     "react-native",
     "react-native-date-picker"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-date-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henninghall/react-native-date-picker.git"
+  },
+  "scripts": {
+    "postpublish": "mv README.md npmREADME.md && mv githubREADME.md README.md",
+    "prepublishOnly": "mv README.md githubREADME.md && mv npmREADME.md README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.5.0"
 }
